@@ -5,9 +5,9 @@ let x;
 
 function setup() {
 
-    canvas = createCanvas(720, 720); 
-    noCursor(); 
-
+    canvas = createCanvas(windowWidth, windowHeight); 
+    noCursor();  
+    
     colorMode(HSB, 360, 100, 100);
 
     rectMode(CENTER);

@@ -7,7 +7,7 @@ function setup() {
 
     canvas = createCanvas(windowWidth, windowHeight); 
     noCursor();  
-    
+
     colorMode(HSB, 360, 100, 100);
 
     rectMode(CENTER);
@@ -68,4 +68,10 @@ function draw() {
         x.normalizedValue= xValue;
 
     }
+
+
+    // this prevents dragging screen around
+function touchMoved() {
+    return false;
+}
 }

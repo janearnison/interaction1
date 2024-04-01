@@ -19,6 +19,7 @@ function setup() {
     loadRNBO(); 
 
     canvas.mouseClicked(startAudioContext); 
+    canvas.touchStarted(startAudioContext);
 }
 
 async function loadRNBO(){
